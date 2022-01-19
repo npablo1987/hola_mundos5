@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         int a = 5;
         int b = 20;
         int c = 20;
+        int bf = 12;
+
 
         if(a > b ){
             return 0 ;
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             if(c > b){
                 return c;
             }else
-                return a;
+                return bf;
 
         }
 
